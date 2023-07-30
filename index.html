@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>d2d</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@700&display=swap" rel="stylesheet">
     <script>
         if ( navigator.userAgent.match(/iPhone|Android.+Mobile/) ) {
             location = 'https://miike-7.github.io/';
@@ -12,7 +15,19 @@
 </head>
 <body>
 
-    <p>coming soon...</p>
+    <main>
+        <div id="app" style="margin: 1rem auto; text-align: center;">
+            <canvas id="mainCanvas" width="550" height="400" style="background: #000;"></canvas>
+        </div>
+    </main>
+
+    <footer style="text-align: center;">
+        <p>使用している著作物は著作権法に基づき引用しています。著作権は権利者様へ帰属します。</p>
+        <p><small>&copy 2023 @miike_7</small></p>
+    </footer>
+
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="main.js"></script>
     
 </body>
 </html>
